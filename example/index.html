@@ -14,10 +14,15 @@
         <iframe  id="test-id" width="560" height="315" src="//www.youtube.com/embed/XeFxdkaFzRA" frameborder="0" allowfullscreen></iframe>
         <iframe id="test-id2" width="560" height="315" src="//www.youtube.com/embed/3G1PFLuTrgM" frameborder="0" allowfullscreen></iframe>
         
-        <script>
-            audit = {};
-            audit.userId = "Penny0659"
-        </script>
         <script src="../lib/statistics.js"></script>
+        <script>
+            (function(){
+                 //Loading the audit component
+                var youTubeVideoPlayerAudit = new YouTubeVideoPlayerAudit({
+                    userId : "Penny0659"
+                });
+            })();
+        </script>
+        
     </body>
 </html>
