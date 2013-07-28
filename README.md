@@ -20,3 +20,5 @@ For the final User:
         //Loading the audit component
         window.trackYouTubeVideos("username");
         </script>
+        
+####The example should run on a server to work since YouTube embed code don't include protocol.
