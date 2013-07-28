@@ -11,17 +11,12 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <iframe  id="test-id" width="560" height="315" src="//www.youtube.com/embed/XeFxdkaFzRA" frameborder="0" allowfullscreen></iframe>
-        <iframe id="test-id2" width="560" height="315" src="//www.youtube.com/embed/3G1PFLuTrgM" frameborder="0" allowfullscreen></iframe>
-        
+        <iframe width="560" height="315" src="//www.youtube.com/embed/XeFxdkaFzRA" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="//www.youtube.com/embed/3G1PFLuTrgM" frameborder="0" allowfullscreen></iframe>
         <script src="../lib/statistics.js"></script>
         <script>
-            (function(){
-                 //Loading the audit component
-                window.YouTubeAudit({
-                    userId : "Penny0659"
-                });
-            })();
+            //Loading the audit component
+            window.trackYouTubeVideos("Penny0659");
         </script>
         
     </body>
