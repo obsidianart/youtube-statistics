@@ -21,4 +21,4 @@ For the final User:
         window.trackYouTubeVideos("username");
         </script>
         
-####The example should run on a server to work since YouTube embed code don't include protocol.
+####The example should run on a server since YouTube embed code does not include protocol.
